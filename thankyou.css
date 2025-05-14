@@ -1,0 +1,26 @@
+.main{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tagline {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.main{
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 40px;
+    margin: 60px auto;
+    width: 40%;
+    border-radius: 12px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}

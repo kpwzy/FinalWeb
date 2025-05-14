@@ -1,0 +1,63 @@
+
+.tagline {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+  
+/*设置表单的背景颜色和边框样式*/
+form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 0 auto; /*居中对齐*/
+}
+
+/*设置表单的标题样式*/
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*设置表单的样式*/
+.form-group{
+    margin-bottom: 15px;
+}
+
+/*设置标签的样式*/
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+/*设置输入框的样式*/
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/*设置输入框的聚焦样式*/
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*设置按钮的悬停样式，把光标放上去后会变色*/
+button:hover{
+    background-color: #0056b3;
+}
+
+  

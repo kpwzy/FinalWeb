@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plan - FitRise</title>
+  <link rel="stylesheet" href="plan.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="plan.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">FitRise</div>
+      <nav class="nav-links">
+        <a href="index.html">About Us</a>
+        <a href="form.html">Form</a>
+        <a href="plan.html">Plan</a>
+      </nav>
+  </div>
+
+  <div class="main">
+    <img src="logo.jpg" class="logo-img" alt="Gym Logo">
+    <p class="tagline">"Unleash Your Power – Start Now!"</p>
+  </div>
+
+  <h1>Choose Your Fitness Goal</h1>
+
+  <select id="goalSelector">
+    <option value="">-- Select Your Goal --</option>
+    <option value="weightLoss">Weight Loss</option>
+    <option value="muscleGain">Muscle Gain</option>
+    <option value="endurance">Endurance</option>
+  </select>
+
+  <button onclick="generatePlan()">Generate Plan</button>
+
+  <div id="workoutPlan" class="plan-container"></div>
+
+</body>
+</html>

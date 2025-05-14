@@ -1,0 +1,63 @@
+
+
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /*设置滚动背景*/
+    background-image: url(gymbg.jpg); /*背景图*/
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 10px 30px;
+}
+  
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* Add hover effect for nav links */
+.nav-links a:hover {
+  color: #007BFF;
+  text-decoration: underline;
+}
+  
+.main {
+    text-align: center;
+    padding: 30px;
+}
+  
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
